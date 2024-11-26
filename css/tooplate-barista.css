@@ -854,6 +854,7 @@ strong {
 .google-map {
   border-radius: var(--border-radius-medium);
   filter: grayscale(100);
+  width: 20px;
 }
 
 .contact-block-wrap {
@@ -892,6 +893,10 @@ strong {
   text-transform: uppercase;
   margin-top: 20px;
   margin-bottom: 10px;
+}
+
+iframe {
+  width: 480px;
 }
 
 
