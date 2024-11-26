@@ -648,7 +648,7 @@ strong {
 }
 
 .team-block-wrap:hover .team-block-image {
-  transform: scale(1);
+  transform: scale(1.29);
 }
 
 .team-block-image-wrap {
