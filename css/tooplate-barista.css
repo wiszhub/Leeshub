@@ -762,7 +762,7 @@ strong {
 }
 
 .reviews-block-image-wrap {
-  background-image: url('../images/images\ \(24\).jpeg');
+  background-image: url('../images/slides/2024111316482057.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -775,6 +775,7 @@ strong {
   height: 65px;
   object-fit: cover;
   margin-right: 10px;
+  border: white 4px solid;
 }
 
 .reviews-block-info {
@@ -796,7 +797,7 @@ strong {
   BOOKING SECTION              
 -----------------------------------------*/
 .booking-section {
-  background-image: url('../images/young-female-barista-wear-face-mask-serving-take-away-hot-coffee-paper-cup-consumer-cafe.jpg');
+  background-image: url('../images/pexels-ron-lach-9849642.jpg');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -845,7 +846,7 @@ strong {
   CONTACT               
 -----------------------------------------*/
 .contact-section {
-  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.45), rgba(188, 108, 37, 1)), url('../images/young-female-barista-wear-face-mask-serving-take-away-hot-coffee-paper-cup-consumer-cafe.jpg');
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.45), rgba(188, 108, 37, 1)), url('../images/pexels-ron-lach-9849642.jpg');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -854,7 +855,6 @@ strong {
 .google-map {
   border-radius: var(--border-radius-medium);
   filter: grayscale(100);
-  width: 20px;
 }
 
 .contact-block-wrap {
@@ -895,9 +895,7 @@ strong {
   margin-bottom: 10px;
 }
 
-iframe {
-  width: 200px;
-}
+
 
 
 /*---------------------------------------
