@@ -645,6 +645,7 @@ strong {
   overflow: hidden;
   max-height: 450px;
   cursor: pointer;
+  height: 390px;
 }
 
 .team-block-wrap:hover .team-block-image {
@@ -701,8 +702,19 @@ strong {
   border-top-color: rgba(255, 255, 255, 0.35) !important;
 }
 
+.menu-block .border-top a {
+  position: relative;
+  float: right;
+}
+
 .menu-block h6 {
   color: var(--white-color);
+}
+
+@media screen and (max-width: 600px) {
+  .menu-block h6 {
+    font-size: 19px;
+  }
 }
 
 .menu-block small {
@@ -865,7 +877,7 @@ strong {
 }
 
 .contact-block {
-  background: var(--secondary-color);
+  background: var(--secondary-color); 
   border-radius: var(--border-radius-medium);
   transform: rotate(8deg);
   height: 100%;
