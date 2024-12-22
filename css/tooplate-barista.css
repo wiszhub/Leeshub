@@ -345,7 +345,7 @@ strong {
 .navbar .container {
   background: rgba(0, 0, 0, 0.35);
   border-radius: var(--border-radius-medium);
-  padding: 15px 30px;
+  padding: 15px 25px;
 }
 
 .navbar-brand,
@@ -713,7 +713,7 @@ strong {
 
 @media screen and (max-width: 600px) {
   .menu-block h6 {
-    font-size: 19px;
+    font-size: 18px;
   }
 }
 
