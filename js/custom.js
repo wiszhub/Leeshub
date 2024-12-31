@@ -11,12 +11,13 @@
     $(function() {
       $('.hero-slides').vegas({
           slides: [
-              { src: 'images/slides/Snapinsta.app_323189277_712073666955881_313082437471727927_n_1080.jpg' },
-              { src: 'images/slides/Snapinsta.app_297362375_623234555695729_4466791697534091327_n_1080.png' },
-              { src: 'images/slides/Snapinsta.app_297510873_533943081822197_1277398907032049076_n_1080.jpg' },
-              { src: 'images/slides/2024111316525539.jpg'},
+              { src: 'images/2024122208044441.png' },
+              { src: 'images/2024122208062786.jpg' },
+              { src: 'images/2024122208140698.jpg' },
+              { src: 'images/2024111812015082.png'},
               { src: 'images/slides/2024111316482057.jpg'},
-              { src: 'images/slides/2024111316545088.jpg'}
+              { src: 'images/slides/2024111316545088.jpg'},
+              { src: 'images/2024122208150244.jpg'}
 
           ],
           timer: false,

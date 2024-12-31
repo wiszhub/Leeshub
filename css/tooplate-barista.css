@@ -711,9 +711,28 @@ strong {
   color: var(--white-color);
 }
 
+.menu-block strong a button {
+  background-color: transparent;
+  border: 2px solid white;
+  border-radius: 10px;
+  color: white;
+  padding: 5px 10px;
+}
+
+.menu-block strong a button:hover {
+  background-color: white;
+  color: #BC6C25;
+}
+
+.menu-block:hover .d-flex a button {
+  background-color: white;
+  color: #BC6C25;
+}
+
+
 @media screen and (max-width: 600px) {
   .menu-block h6 {
-    font-size: 18px;
+    font-size: 16px;
   }
 }
 
@@ -733,6 +752,14 @@ strong {
   display: block;
   margin: auto;
   cursor: pointer;
+}
+
+.menu-block strong a button {
+  background-color: transparent;
+  border: 2px solid white;
+  border-radius: 10px;
+  color: white;
+  padding: 5px;
 }
 
 .badge {
